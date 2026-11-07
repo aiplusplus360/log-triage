@@ -1,0 +1,14 @@
+2026-01-02T10:00:00Z INFO  listening on :8080
+2026-01-02T10:00:01Z INFO  GET /health 200 2ms
+2026-01-02T10:00:02Z INFO  GET /users/8812 200 14ms
+2026-01-02T10:00:03Z INFO  GET /users/91 200 5ms
+2026-01-02T10:00:04Z WARN  retrying POST /orders after 502
+2026-01-02T10:00:05Z ERROR connect to 10.0.0.4:5432 failed: connection refused
+2026-01-02T10:00:06Z ERROR panic: database/sql: connection pool exhausted
+2026-01-02T10:00:07Z ERROR panic: database/sql: connection pool exhausted
+2026-01-02T10:00:08Z ERROR panic: database/sql: connection pool exhausted
+2026-01-02T10:00:09Z ERROR panic: database/sql: connection pool exhausted
+2026-01-02T10:00:10Z ERROR panic: database/sql: connection pool exhausted
+2026-01-02T10:00:11Z ERROR panic: database/sql: connection pool exhausted
+2026-01-02T10:00:12Z ERROR GET /api/v2/reports/77 500 900ms
+2026-01-02T10:00:13Z INFO  GET /users/8813 200 15ms
